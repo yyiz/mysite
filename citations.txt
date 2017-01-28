@@ -1,0 +1,5 @@
+centering:
+https://css-tricks.com/perfect-full-page-background-image/
+
+fill page with image:
+https://css-tricks.com/perfect-full-page-background-image/

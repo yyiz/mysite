@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+  <head>
+    <title> Projects </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
+    <link rel="stylesheet" href="../stylesheets/main.css">
+    <script src="../js/main.js"></script>
+    <link rel="icon" type="images/png" href="../images/icon.png">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">Home</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="projects.html#mysite">Personal Site</a></li>
+                <li><a href="projects.html#interpolater">Interpolater</a></li>
+                <li><a href="projects.html#gt112">GT-112</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="research.html#image">Image Science</a></li>
+                <li><a href="research.html#shukla">Shukla Lab</a></li>
+                <li><a href="research.html#mrsec">Garcia MRSEC</a></li>
+                <li><a href="research.html#kar">Kar Lab</a></li>
+                <li><a href="research.html#ysp">YSP</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Experience <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="experience.html#amazon">Amazon</a></li>
+                <li><a href="experience.html#ta">Teaching Assistant</a></li>
+                <li><a href="experience.html#schrodinger">Schrodinger</a></li>
+                <li><a href="experience.html#ra">Resident Assistant</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Just for Fun <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="fun.html#run">Distance Running</a></li>
+                <li><a href="fun.html#violin">Violin</a></li>
+                <li><a href="fun.html#write">Writing</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav"> <li><a href="links.html">Links and Credits</a></li> </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <header class="header project_head">
+      <h1 class=welcome> Projects </h1>
+    </header>
+
+    <div class="section"> <a name="mysite" class="anchor"></a>
+      <div class="container-fluid">
+        <h1> Personal Website </h1>
+        <h3> Winter 2017 </h3>
+        <hr>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-1 col-xs-10 col-xs-offset-1 vcenter">
+            <div class="disp">
+              <a href= "https://github.com/gitYong/personalSite"> <img src="../images/mysite.png" class="center-block"> </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-md-offset-0 vcenter col-xs-10 col-xs-offset-1">
+            <h2> An experiment with HTML/CSS </h2>
+            <p> A simple static website, my personal resume website. The website uses HTML/CSS and is built on the Bootstrap framework. Support for fonts and icons was provided using FontAwesome and Google Fonts. This was a wonderful introduction to simple website design and I look forward to developing this website further. Source code  <a href= "https://github.com/gitYong/personalSite"> here</a>. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section gray"> <a name="interpolater" class="anchor"></a>
+      <div class="container-fluid">
+        <h1> Cartoon Interpolater </h1>
+        <h3> Fall 2016 </h3>
+        <hr>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-1 col-xs-10 col-xs-offset-1 vcenter">
+            <div class="disp">
+              <a href= "https://github.com/VasuAgrawal/15462-Asst5"> <img src="../images/gingerbread.png" class="center-block"> </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-md-offset-0 vcenter col-xs-10 col-xs-offset-1">
+            <h2> An animation software for 2-D images. </h2>
+            <p> The goal of this project was to create a program that would allow the user to import an image file and provide the tools needed to animate the image. The 3 tools provided to the user are: cage, skeleton, and spline interpolation. Cage manipulation allows the user to distort the region within the cage. Skeleton transform allows the user to rotate joints and regions of the image that surround the joint, using skinning. Spline interpolation moves the surrounding according to an interpolated spline. The program was written in Python with Pygame for the interface, as well as Numpy and Python Image Library (PIL) for speed. Check out <a href="https://www.youtube.com/watch?v=l75hXpetXQg&t=1s"> this </a> demonstration. Source code  <a href= "https://github.com/VasuAgrawal/15462-Asst5"> here</a>. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section"> <a name="gt112" class="anchor"></a>
+      <div class="container-fluid">
+        <h1> GT-112 </h1>
+        <h3> Spring 2015 </h3>
+        <hr>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-1 col-xs-10 col-xs-offset-1 vcenter">
+            <div class="disp">
+              <a href= "https://github.com/gitYong/gt112"> <img src="../images/gt112.png" class="center-block"> </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-md-offset-0 vcenter col-xs-10 col-xs-offset-1">
+            <h2> An Open-CV driven racing game. </h2>
+            <p> This racing game allows the user to control the motion of a cartoon car using the motion of their hands and feet. The program was written in Python and uses the OpenCV module. OpenCV was used for color detection to determine the position of the user's hands and feet, which is converted into steering and acceleration input. The calibration feature, game design, and racing AI were all written from scratch. Check out <a href="https://www.youtube.com/watch?v=HXx1ZZWuIXs&t=100s"> this </a> demonstration. Source code  <a href= "https://github.com/gitYong/gt112"> here</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
+

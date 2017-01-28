@@ -1,0 +1,126 @@
+body {
+    font-family: 'Monda', sans-serif;
+    padding-top: 50px;
+}
+
+/* Trick to fill background: https://css-tricks.com/perfect-full-page-background-image/
+Tinting code: ;
+*/
+body.index { 
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.5) 10%, rgba(10, 10, 10, 0.5) 100%), url(../images/burgh.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 0;
+}
+
+header.header {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10vw 2em;
+    text-align: center;
+}
+
+
+
+.project_head {
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.5) 10%, rgba(10, 10, 10, 0.5) 100%), url(../images/fpga.jpg) no-repeat center center fixed;
+}
+
+.research_head {
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.5) 10%, rgba(10, 10, 10, 0.5) 100%), url(../images/thh.png) no-repeat center center fixed;
+}
+
+.experience_head {
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.5) 10%, rgba(10, 10, 10, 0.5) 100%), url(../images/code.png) no-repeat center center fixed;
+}
+
+.fun_head {
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.5) 10%, rgba(10, 10, 10, 0.5) 100%), url(../images/dash.jpg) no-repeat center center fixed;
+}
+
+.about_head {
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.5) 10%, rgba(10, 10, 10, 0.5) 100%), url(../images/farm.jpg) no-repeat center center fixed;
+}
+
+.link_head {
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.7) 10%, rgba(10, 10, 10, 0.7) 100%), url(../images/links.jpg) no-repeat center center fixed;
+}
+
+h1.welcome {
+    color: white;
+    font-size: 5em;
+    text-align: center;
+}
+
+
+h2.intro {
+    color: white;
+    font-size: 1.55em;
+}
+
+p.creds {
+    text-align: center;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+}
+
+div.headshot img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 190px;
+}
+
+div.disp img {
+    width: 100%;
+    max-width: 350px;
+}
+
+div.section {
+    padding-bottom: 2em;
+}
+
+a.main {
+    font-size: 1.5em;
+    color: white;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+}
+
+/*Style from: https://codepen.io/ibrahimjabbari/pen/ozinB*/
+hr {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+p.home {
+    margin-top: 1em;
+    font-size: 200%;
+    text-align: center;
+}
+
+.black {
+  color: black;
+}
+
+.gray {
+    background: #F0F0F0;
+}
+
+.highlight:hover {
+    color: black;
+}
