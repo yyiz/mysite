@@ -1,6 +1,6 @@
-body {
+html, body {
     font-family: 'Monda', sans-serif;
-    padding-top: 50px;
+    height: 100%;
 }
 
 /* Trick to fill background: https://css-tricks.com/perfect-full-page-background-image/
