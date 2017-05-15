@@ -127,3 +127,8 @@ p.home {
 .highlight:hover {
     color: yellow;
 }
+
+.dropdown:hover .dropdown-menu {
+   display: block;
+}
+
