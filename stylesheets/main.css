@@ -15,18 +15,27 @@ body.index {
     padding-top: 0;
 }
 
+body.about { 
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.6) 10%, rgba(10, 10, 10, 0.6) 100%), url(../images/boston.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 0;
+}
+
 header.header {
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10vw 2em;
+    padding: 10vw;
     text-align: center;
 }
 
 /*_____________________________________________________________________
 */
 .container {
-  display: inline-block;
+    display: inline-block;
     position: relative;
     width: 300px;
 }
@@ -67,18 +76,6 @@ header.header {
     background: linear-gradient(to bottom, rgba(10, 10, 10, 0.5) 10%, rgba(10, 10, 10, 0.5) 100%), url(../images/code.png) no-repeat center center fixed;
 }
 
-.fun_head {
-    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.5) 10%, rgba(10, 10, 10, 0.5) 100%), url(../images/dash.jpg) no-repeat center center fixed;
-}
-
-.about_head {
-    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.5) 10%, rgba(10, 10, 10, 0.5) 100%), url(../images/farm.jpg) no-repeat center center fixed;
-}
-
-.link_head {
-    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.7) 10%, rgba(10, 10, 10, 0.7) 100%), url(../images/links.jpg) no-repeat center center fixed;
-}
-
 h1.welcome {
     color: white;
     font-size: 4.5em;
@@ -105,10 +102,10 @@ p.creds {
     padding-bottom: 3em;
 }
 
-div.headshot img {
+img.headshot {
     border-radius: 50%;
     width: 100%;
-    max-width: 210px;
+    max-width: 150px;
 }
 
 div.disp img {
@@ -116,13 +113,22 @@ div.disp img {
     max-width: 350px;
 }
 
+div.head img {
+    width: 250px;
+    max-width: 350px;
+}
+
 div.section {
     padding-bottom: 2em;
 }
 
+div.navOffset {
+    padding-top: 7em;
+}
+
 a.main {
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 2em;
     color: white;
 }
 
@@ -130,6 +136,11 @@ a.anchor {
     display: block;
     position: relative;
     top: -50px;
+}
+
+a.wlink {
+    color: white;
+    font-weight: bold;
 }
 
 /*Style from: https://codepen.io/ibrahimjabbari/pen/ozinB*/
@@ -142,6 +153,12 @@ hr {
 .vcenter {
     display: inline-block;
     vertical-align: middle;
+    float: none;
+}
+
+.vtop {
+    display: inline-block;
+    vertical-align: top;
     float: none;
 }
 
