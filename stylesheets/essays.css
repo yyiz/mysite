@@ -1,0 +1,12 @@
+html {
+  font-family: 'Inconsolata', monospace;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a{
+  text-decoration: none;
+}
+

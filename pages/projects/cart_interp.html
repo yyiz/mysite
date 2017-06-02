@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+  <head>
+    <title> Cartoon Interpolater </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
+    <link rel="stylesheet" href="../../stylesheets/main.css">
+    <script src="../../js/main.js"></script>
+    <link rel="icon" type="images/png" href="../../images/icon.png">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">Home</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="../projects.html" class="dropdown-toggle">Projects <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="personal_site.html">Personal Site</a></li>
+                <li><a href="cart_interp.html">Interpolater</a></li>
+                <li><a href="gt112.html">GT-112</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="../research.html" class="dropdown-toggle">Research <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../research.html#image">Image Science</a></li>
+                <li><a href="../research.html#shukla">Shukla Lab</a></li>
+                <li><a href="../research.html#mrsec">Garcia MRSEC</a></li>
+                <li><a href="../research.html#kar">Kar Lab</a></li>
+                <li><a href="../research.html#ysp">YSP</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="../experience.html" class="dropdown-toggle">Experience <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../experience.html#amazon">Amazon</a></li>
+                <li><a href="../experience.html#ta">Teaching Assistant</a></li>
+                <li><a href="../experience.html#schrodinger">Schrodinger</a></li>
+                <li><a href="../experience.html#ra">Resident Assistant</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li><a href="../about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="section" style="padding-top: 4em"> <a name="mysite" class="anchor"></a>
+      <div class="container-fluid" style="text-align: center">
+        <h1> Cartoon Interpolater </h1>
+        <h3> Create 2-D animations from simple images!</h3>
+        <h5> Developed with Vasu Agrawal for 15-462 at Carnegie Mellon University</h5>
+        <hr>
+
+
+        <div class="row">
+          <div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-0 vcenter">
+            <div class="disp">
+              <img src="../../images/gingerbread.png" class="center-block">
+            </div>
+          </div>
+
+          <div class="col-md-6 col-md-offset-0 vcenter col-xs-10 col-xs-offset-0">
+            <p style="text-align: left"> The goal of this project was to create a program that would allow the user to import an image file and provide the tools needed to animate the image. The 3 tools provided to the user are: cage, skeleton, and spline interpolation. Cage manipulation allows the user to distort the region within the cage. Skeleton transform allows the user to rotate joints and regions of the image that surround the joint, using skinning. Spline interpolation moves the surrounding according to an interpolated spline. The program was written in Python with Pygame for the interface, as well as Numpy and Python Image Library (PIL) for speed. Check out <a href="https://www.youtube.com/watch?v=l75hXpetXQg&t=1s"> this </a> demonstration.</p>
+          </div>
+        </div>
+
+      <div style="margin-top: 2em">
+        <a href="../projects.html" style="color:black;text-align: center;font-size: 2em">Back</a>
+      </div>
+      </div>
+    </div>
+
+
+  </body>
+
+</html>
+

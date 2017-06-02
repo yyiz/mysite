@@ -40,7 +40,7 @@ header.header {
     width: 300px;
 }
 
-.image {
+img.image {
   opacity: 0;
   display: block;
   width: 100%;
@@ -64,10 +64,45 @@ header.header {
 /*_____________________________________________________________________
 */
 
-.project_head {
-    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.5) 10%, rgba(10, 10, 10, 0.5) 100%), url(../images/fpga.jpg) no-repeat center center fixed;
+img.proj {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
+div.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #cc1010;
+}
+
+div.proj_container:hover .overlay {
+    opacity: 0.8;
+}
+
+div.proj_container {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+}
+
+div.text_style {
+    font-size: 2em;
+    color: white;
+}
+
+/*_____________________________________________________________________
+*/
 .research_head {
     background: linear-gradient(to bottom, rgba(10, 10, 10, 0.5) 10%, rgba(10, 10, 10, 0.5) 100%), url(../images/thh.png) no-repeat center center fixed;
 }
@@ -167,6 +202,7 @@ p.home {
     font-size: 200%;
     text-align: center;
 }
+
 
 .black {
   color: black;
