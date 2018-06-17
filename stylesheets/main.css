@@ -8,25 +8,15 @@ Tinting code: ;
 */
 body.index { 
     background: linear-gradient(to bottom, rgba(10, 10, 10, 0.5) 10%, rgba(10, 10, 10, 0.5) 100%), url(../images/burgh.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    padding-top: 0;
 }
 
 body.about { 
     background: linear-gradient(to bottom, rgba(10, 10, 10, 0.6) 10%, rgba(10, 10, 10, 0.6) 100%), url(../images/boston.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    padding-top: 0;
 }
 
 header.header {
-    background-position: center top;
-    background-repeat: no-repeat;
     background-size: cover;
     padding: 10vw;
     text-align: center;
@@ -40,25 +30,21 @@ header.header {
     width: 300px;
 }
 
-img.image {
+img.hovIm {
   opacity: 0;
-  display: block;
-  width: 100%;
   height: auto;
-  transition: .5s ease;
+  transition: .7s;
   backface-visibility: hidden;
 }
 
-.middle {
-  opacity: 1;
+.centIm {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
 }
 
-.container:hover .image {
+.container:hover .hovIm {
   opacity: 0.5;
 }
 /*_____________________________________________________________________
