@@ -4,7 +4,7 @@
 <html lang="en">
 
   <head>
-    <title> 204Tris </title>
+    <title> GT-112 </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -35,6 +35,7 @@
             <li class="dropdown">
               <a href="../projects.html" class="dropdown-toggle">Projects <span class="caret"></span></a>
               <ul class="dropdown-menu">
+                <li><a href="blender.html">Rendering</a></li>
                 <li><a href="capstone.html">Capstone</a></li>
                 <li><a href="cart_interp.html">Interpolater</a></li>
                 <li><a href="gt112.html">GT-112</a></li>
@@ -71,15 +72,25 @@
       </div>
     </nav>
 
-    <div class="section" style="padding-top: 4em"> <a name="mysite" class="anchor"></a>
+
+    <div class="section" style="padding-top: 4em">
       <div class="container-fluid" style="text-align: center">
-        <h1> 204Tris </h1>
-        <h4> Apparently smashing together 2048 and Tetris can become a game</h4>
+        <h1> Blender Rendering </h1>
+        <h3> Generating scenes using blender tools for modeling, lighting, and materials</h3>
         <hr>
 
-        <canvas id="204trisBoard" width="300" height="400" style="border:1px solid #000000;">
-        </canvas>
-        <script src="../../js/204tris.js"></script>
+
+        <div class="row">
+          <div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-0 vcenter">
+            <div class="disp">
+              <img src="../../images/setup_full.png" class="center-block">
+            </div>
+          </div>
+
+          <div class="col-md-6 col-md-offset-0 vcenter col-xs-10 col-xs-offset-0">
+            <p style="text-align: left"> I began rendering with blender in winter of 2020. I learned to use a variety of tools that are fundamental to blender, including tools for modeling (extrusion, beveling, etc.), manipulating scene materials (specular vs diffuse, and generating patterns with voronoi noise), and lighting (environment lighting vs area light). This culminated in a project, in which I rendered my full optical setup. I directly modeled the laser, detector, table and posts from primitives. The galvo mirror models were imported from the vendor website. I designed the materials for all parts, handtuning the specularity, color, etc. to match the corresponding optical components. The breadboard pattern for the optical table was created from voronoi textures. The final rendered image is shown. 
+          </div>
+        </div>
 
       <div style="margin-top: 2em">
         <a href="../projects.html" style="color:black;text-align: center;font-size: 2em">Back</a>
