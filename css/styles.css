@@ -111,7 +111,7 @@ a.wlink {
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  font-family: 'Rubik';
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
