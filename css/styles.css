@@ -270,6 +270,10 @@ a:hover {
   color: var(--bs-link-hover-color);
 }
 
+i:hover{
+  transform: scale(1.2);
+}
+
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
