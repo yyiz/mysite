@@ -96,6 +96,8 @@ img.headshot {
     border-radius: 50%;
     width: 100%;
     max-width: 150px;
+    margin: auto;    
+    display: block;
 }
 
 div.head img {
